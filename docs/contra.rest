@@ -1,0 +1,17 @@
+##########################
+POST http://127.0.0.1:3000/auth/forgot-password
+Content-Type: application/json
+
+{
+    "email":"wismael718@gmail.com"
+    
+}
+
+############
+POST http://localhost:3000/auth/reset-password
+Content-Type: application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Indpc21hZWw3MThAZ21haWwuY29tIiwiaWF0IjoxNzMzODg0NDQ0LCJleHAiOjE3MzM4ODgwNDR9.Ls61YBzrnPHNyGAxHFrQd4SFyGR3hsNXOLH0XkD8YWE",
+  "newPassword": "ismael"
+}

@@ -1,0 +1,17 @@
+################
+POST http://127.0.0.1:3000/producto
+Content-Type: application/json
+
+{
+    "nombre":"Impresora",
+    "precio": 910.50,
+    "stock": 1,
+    "image": "hola",
+    "descripcion": "simulador",
+    "estado": true, 
+    "categoriaId": 1
+}
+
+
+######
+GET  http://127.0.0.1:3000/producto/back?page=1
