@@ -54,7 +54,8 @@ export class AuthService {
     // Generar un token para restablecer la contraseña
     const token = this.jwtService.sign({ email: user.email }, { expiresIn: '1h' });
   
-    const resetLink = `${process.env.BASE_URL}/auth/reset-password?token=${token}`;
+    const resetLink = `http://localhost:4200/auth/reset-password?token=${token}`;
+
   
     // Configuración de Nodemailer para enviar el correo
     const transporter = nodemailer.createTransport({

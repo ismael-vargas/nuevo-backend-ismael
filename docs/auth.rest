@@ -2,8 +2,8 @@ POST http://127.0.0.1:3000/auth/register
 Content-Type: application/json
 
 {
-    "name":"Ismael Vargas",
-    "email": "wismael718@gmail.com",
+    "name":"Ismael candos",
+    "email": "juangabriel@gmail.com",
     "password": "1234567",
     "telefono": "0962658076"
 }

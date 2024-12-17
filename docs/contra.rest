@@ -12,6 +12,6 @@ POST http://localhost:3000/auth/reset-password
 Content-Type: application/json
 
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Indpc21hZWw3MThAZ21haWwuY29tIiwiaWF0IjoxNzMzODg0NDQ0LCJleHAiOjE3MzM4ODgwNDR9.Ls61YBzrnPHNyGAxHFrQd4SFyGR3hsNXOLH0XkD8YWE",
-  "newPassword": "ismael"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Indpc21hZWw3MThAZ21haWwuY29tIiwiaWF0IjoxNzM0MzAwOTQ3LCJleHAiOjE3MzQzMDQ1NDd9.-kTqwKtSmhFIVxOvSIkEWTyoz9ZoQ7XUQgwMh9NtCsg",
+  "newPassword": "ismaela"
 }
